@@ -1,6 +1,6 @@
 {
   "name": "cat-paste",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Clipboard uploading for Catbox",
   "scripts": {
     "build": "babel --presets=@babel/preset-env src --out-dir dist"
