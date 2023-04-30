@@ -3,7 +3,7 @@ html {
 }
 body {
     margin: 0;
-    background-image: url(/site/texture3.png);
+    background-image: url(texture3.png);
     font-family: "Helvetica", sans-serif;
     color: #333;
     display: flex;
