@@ -8,7 +8,7 @@
 // @author       Snivy
 // @match        https://catbox.moe/
 // @match        https://litterbox.catbox.moe/
-// @icon         https://juribiyan.github.io/cat-paste/icon.png
+// @icon         https://juribiyan.github.io/cat-paste/favicon.ico
 // @grant        none
 // ==/UserScript==
 
