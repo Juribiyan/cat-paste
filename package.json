@@ -1,0 +1,22 @@
+{
+  "name": "cat-paste",
+  "version": "0.1.0",
+  "description": "Clipboard uploading for Catbox",
+  "scripts": {
+    "build": "babel --presets=@babel/preset-env src --out-dir dist"
+  },
+  "keywords": [
+    "catbox"
+  ],
+  "author": "Snivy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juribiyan/cat-paste.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  }
+}

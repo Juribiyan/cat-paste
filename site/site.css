@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-image: url(/site/texture3.png);
+    font-family: "Helvetica", sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    animation: bgscroll 1s linear infinite;
+}
+@keyframes bgscroll {   
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: -40px 40px;
+    
+    }
+}
+
+a, a:visited {
+    color: #49a8bb;
+}
+a:hover {
+    color: #317481;
+}
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+}
+footer {
+    font-size: .75em;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px dashed #999999;
+}
+.logo {
+    margin: -200px 0 30px;
+    width: 400px;
+    max-width: calc(100% - 10px);
+}
+.logo img {
+    width: 100%;
+}
+.download-btn {
+    background: #4e92a0;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid transparent;
+    border-color: #5caebf #4e92a0 #397480 #4e92a0;
+    margin-bottom: 20px;
+    transition: background-color .2s, box-shadow .2s;
+    box-shadow: 0 3px 7px #4e92a054;
+}
+.download-btn:hover {
+    color: white;
+    background: #3F8694;
+    box-shadow: 0 4px 10px #4e92a0a1;
+}
+.download-btn div {
+    font-size: 1.2em;
+    padding: 15px 30px 10px;
+    font-weight: bold;
+    border-bottom: 1px dashed currentColor;
+}
+.download-btn small {
+    padding: 4px 0;
+    text-align: center;
+    display: inline-block;
+}
